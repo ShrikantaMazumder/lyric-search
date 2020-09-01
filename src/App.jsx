@@ -1,10 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.module.css';
+import './App.css';
+import Layout from './components/Layout/Layout';
 
 function App() {
   return (
-    <h1>Home</h1>
+    <Layout />
   );
 }
 
